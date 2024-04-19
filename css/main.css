@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ======== class for images =========== */
+.w-full {
+    width: 100%;
+}
+
+/* ======== class for images =========== */
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header {
+    padding-top: 25px;
+}
+
+.header__container {
+    max-width: 1200px;
+    padding-bottom: 17px;
+    border-bottom: 0.3px solid #46A35880;
+
+}
+
+.header__logo {
+    width: 150px;
+    height: 34.3px;
+    display: flex;
+}
+
+.nav__list {
+    gap: 50px;
+}
+
+.nav__link__active {
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #46A358;
+}
+
+
+.nav__link {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+}
+
+.header__search_btn,
+.header__shop__btn {
+    background: transparent;
+    border: none;
+}
+
+.header__search_btn {
+    width: 20px;
+    height: 20px;
+}
+
+.header__shop__btn {
+    width: 24px;
+    height: 24px;
+}
+
+.header__btns__box {
+    gap: 30px;
+}
+
+.header__login__btn {
+    padding: 8px 17px;
+    background-color: #46A358;
+    border: none;
+    border-radius: 6px;
+    gap: 4px;
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.11px;
+    color: #fff;
+}
+
+.login__btn__icon {
+    width: 20px;
+    height: 20px;
+}
