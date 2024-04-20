@@ -42,6 +42,7 @@ button {
 
 .header {
     padding-top: 25px;
+    padding-bottom: 12px;
 }
 
 .header__container {
@@ -101,10 +102,7 @@ button {
 }
 
 .header__login__btn {
-    padding: 8px 17px;
-    background-color: #46A358;
-    border: none;
-    border-radius: 6px;
+
     gap: 4px;
     font-family: Cera Pro, sans-serif;
     font-size: 16px;
@@ -116,4 +114,88 @@ button {
 .login__btn__icon {
     width: 20px;
     height: 20px;
+}
+
+.home-hero {
+    padding-top: 0;
+    padding-bottom: 23px;
+
+}
+
+.home-hero__container {
+    max-width: 1200px;
+    gap: 93px;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+}
+
+.home-hero__container__info {
+    max-width: 693px;
+    width: 100%;
+}
+
+.home-hero__title {
+    font-family: Cera Pro, sans-serif;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.home-hero__large__title {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.hero__large__title_green {
+    font-family: Cera Pro, sans-serif;
+    color: #46A358;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    line-height: 70px;
+}
+
+.home-hero__text {
+    font-family: Cera Pro, sans-serif;
+    color: #727272;
+    max-width: 520px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 44px;
+}
+
+.main__btn {
+    padding: 8px 17px;
+    background-color: #46A358;
+    border: none;
+    border-radius: 6px;
+}
+
+.home-hero__btn {
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.home-hero__img {
+    width: 518px;
+    height: 518px;
+}
+
+.swiper-pagination-bullet {
+    background: #0fc7349c !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #46A358 !important;
 }
