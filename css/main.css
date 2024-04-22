@@ -116,6 +116,8 @@ button {
     height: 20px;
 }
 
+/* =================== HOME HERO STYLES ==================== */
+
 .home-hero {
     padding-top: 0;
     padding-bottom: 23px;
@@ -198,4 +200,262 @@ button {
 
 .swiper-pagination-bullet-active {
     background: #46A358 !important;
+}
+
+/* ============ HOME SHOP STYLES =================*/
+
+.home-shop {
+    padding-top: 23px;
+    padding-bottom: 50px;
+}
+
+.home-shop__container {
+    max-width: 1200px;
+    gap: 50px;
+}
+
+.home-shop__box {
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.home-shop__info {
+    max-width: 310px;
+    background: #FBFBFB;
+    padding: 14px 24px 19px 18px;
+    width: 100%;
+    position: relative;
+    height: 1244px;
+}
+
+.home-shop__catigories__title {
+    margin-bottom: 7px;
+}
+
+.home-shop__main__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.home-shop__catigories__box {
+    padding-left: 12px;
+    margin-bottom: 36px;
+}
+
+.active__catigory {
+    color: #46A358;
+    font-family: Cera Pro, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.normal__catigory {
+    color: #3d3d3d;
+    font-family: Cera Pro, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.home-shop__catigories__title-1 {
+    margin-bottom: 20px;
+}
+
+.home-shop__catigories__price__box {
+    padding-left: 12px;
+}
+
+.home-shop__price__range {
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 209px;
+    width: 100%;
+}
+
+.home-shop__price__counter {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 16px;
+    line-height: 16px;
+}
+
+.price {
+    font-family: Cera Pro, sans-serif;
+    color: #46A358;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.home-shop__filter__btn {
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 46px;
+    line-height: 20px;
+}
+
+.home-shop__info__img {
+    max-width: 370px;
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.home-shop__cards__box {
+    max-width: 838px;
+    width: 100%;
+    min-width: 443px;
+}
+
+.cards__tap {
+    gap: 38px;
+}
+
+.home-shop__cards__tap__box {
+    margin-bottom: 21px;
+}
+
+.shop__tab__btn_A {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #46A358;
+}
+
+.shop__tab__btn_N {
+    background: transparent;
+    border: none;
+}
+
+.shop__sorting {
+    gap: 5px;
+}
+
+.home-shop__card-N {
+    max-width: 258px;
+}
+
+.shop__card__img {
+    padding: 31px 4px 19px 4px;
+    background: #FBFBFB;
+    margin-bottom: 12px;
+}
+
+.shop__card__flower__name {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 16px;
+}
+
+.home-shop__card__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px 33px;
+}
+
+.home-shop__pages__btns {
+    gap: 10px;
+    justify-content: end;
+}
+
+.home-page__btn,
+.home-page__btn-A {
+    font-family: sans-serif;
+    padding: 10px 12px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.home-page__btn {
+    font-weight: 300;
+    border: 1px solid #E5E5E5;
+    color: #3D3D3D;
+    background: transparent;
+}
+
+.home-page__btn-A {
+    color: white;
+    font-weight: 700;
+    font-family: cera pro, sans-serif;
+}
+
+/* ==== SUGGESTIONS SECTION STYLES ==== */
+
+.suggestions {
+    padding-top: 50px;
+    padding-bottom: 73px;
+}
+
+.suggestions__container {
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.suggestions__card {
+    max-width: 586px;
+    width: 100%;
+    background: #FBFBFB;
+    padding-right: 30px;
+}
+
+.suggestions__card__img {
+    max-width: 293px;
+    height: 250px;
+    position: relative;
+    width: 100%;
+}
+
+.suggestions__img {
+    max-width: 293px;
+    position: absolute;
+    top: -52px;
+    min-height: 203px;
+    object-fit: cover;
+    left: 4px;
+    width: 100%;
+}
+
+.suggestions__card__title {
+    font-family: Cera Pro, sans-serif;
+    text-align: right;
+    max-width: 160px;
+    margin-left: auto;
+    width: 100%;
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.suggestions__card__text {
+    font-family: Cera Pro, sans-serif;
+    text-align: right;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.suggestions__btn {
+    margin-left: auto;
+    font-family: Cera Pro, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
