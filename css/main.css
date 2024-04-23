@@ -48,8 +48,16 @@ button {
 .header__container {
     max-width: 1200px;
     padding-bottom: 17px;
-    border-bottom: 0.3px solid #46A35880;
+}
 
+.header-line {
+    display: flex;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: none;
+    border-bottom: 0.3px solid #46A35880;
 }
 
 .header__logo {
@@ -125,8 +133,9 @@ button {
 }
 
 .home-hero__container {
-    max-width: 1200px;
+    max-width: 1170px;
     gap: 93px;
+    padding-left: 48px;
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
 }
 
@@ -190,8 +199,8 @@ button {
 }
 
 .home-hero__img {
-    width: 518px;
-    height: 518px;
+    width: 518px !important;
+    height: 518px !important;
 }
 
 .swiper-pagination-bullet {
@@ -250,6 +259,7 @@ button {
     font-size: 15px;
     font-weight: 700;
     line-height: 40px;
+    cursor: pointer;
 }
 
 .normal__catigory {
@@ -258,6 +268,7 @@ button {
     font-size: 15px;
     font-weight: 400;
     line-height: 40px;
+    cursor: pointer;
 }
 
 .home-shop__catigories__title-1 {
@@ -349,7 +360,51 @@ button {
     padding: 31px 4px 19px 4px;
     background: #FBFBFB;
     margin-bottom: 12px;
+    position: relative;
+    border-top: 1px solid transparent;
+    overflow: hidden;
+    transition: all 0.3s;
 }
+
+.shop__card__img:hover{
+    border-top: 1px solid #46A358;
+}
+
+.shop__card__btns {
+    width: 100%;
+    justify-content: center;
+    gap: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 1px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.shop__card__img:hover .shop__card__btns{
+    bottom: 7px !important;
+    opacity: 1;
+}
+
+.shop__buy__btn,
+.shop__like__btn,
+.shop__search__btn {
+    background-color: white;
+    display: flex;
+    border: none;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.shop__buy__btn{}
+
+.shop__like__btn {}
+
+.shop__search__btn {}
 
 .shop__card__flower__name {
     display: block;
@@ -408,6 +463,7 @@ button {
     max-width: 586px;
     width: 100%;
     background: #FBFBFB;
+    position: relative;
     padding-right: 30px;
 }
 
@@ -458,4 +514,22 @@ button {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+}
+
+.suggestions__circle {
+    width: 57px;
+    height: 116px;
+    bottom: 0;
+    gap: 0px;
+    border-radius: 50%;
+    left: 0;
+    position: absolute;
+}
+
+.suggestions__circle1 {
+    width: 65px;
+    height: 108px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
