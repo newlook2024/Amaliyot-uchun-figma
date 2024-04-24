@@ -9,6 +9,10 @@ body {
     background: #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
 }
@@ -110,13 +114,17 @@ button {
 }
 
 .header__login__btn {
-
+    transition: all 0.3s;
     gap: 4px;
     font-family: Cera Pro, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.11px;
     color: #fff;
+}
+
+.header__login__btn:hover{
+    opacity: 0.8;
 }
 
 .login__btn__icon {
@@ -196,6 +204,11 @@ button {
     font-weight: 700;
     line-height: 20px;
     color: #FFF;
+    transition: all 0.3s;
+}
+
+.home-hero__btn:hover{
+    opacity: 0.8;
 }
 
 .home-hero__img {
@@ -311,6 +324,7 @@ button {
     color: white;
     margin-bottom: 46px;
     line-height: 20px;
+    transition: all 0.3s;
 }
 
 .home-shop__info__img {
@@ -321,6 +335,10 @@ button {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.home-shop__filter__btn:hover{
+    opacity: 0.8;
 }
 
 .home-shop__cards__box {
@@ -398,6 +416,14 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    color: #3D3D3D;
+    transition: all 0.3s;
+}
+
+.shop__buy__btn:hover,
+.shop__like__btn:hover,
+.shop__search__btn:hover {
+    color: #46A358;
 }
 
 .shop__card__flower__name {
@@ -508,6 +534,11 @@ button {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    transition: all 0.3s;
+}
+
+.suggestions__btn:hover{
+    opacity: 0.8;
 }
 
 .suggestions__circle {
@@ -622,4 +653,5 @@ button {
 
 .blogs__card__link:hover{
     gap: 7px;
+    color: #46A358;
 }

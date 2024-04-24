@@ -35,3 +35,18 @@ shopTab.forEach((item, index)=>{
         shopTab[index].classList.add('active__catigory')
     })
 })
+
+let homePageBtns = document.querySelectorAll('#home__page__btns')
+
+homePageBtns.forEach((item,index)=>{
+    item.addEventListener('click', ()=>{
+        homePageBtns.forEach((item1)=>{
+            item1.classList.remove('main__btn')
+            item1.classList.remove('home-page__btn-A')
+            item1.classList.add('home-page__btn')
+        })
+        homePageBtns[index].classList.add('main__btn')
+        homePageBtns[index].classList.add('home-page__btn-A')
+        homePageBtns[index].classList.remove('home-page__btn')
+    })
+})
