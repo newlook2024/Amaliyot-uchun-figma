@@ -366,7 +366,7 @@ button {
     transition: all 0.3s;
 }
 
-.shop__card__img:hover{
+.shop__card__img:hover {
     border-top: 1px solid #46A358;
 }
 
@@ -382,7 +382,7 @@ button {
     transition: all 0.3s;
 }
 
-.shop__card__img:hover .shop__card__btns{
+.shop__card__img:hover .shop__card__btns {
     bottom: 7px !important;
     opacity: 1;
 }
@@ -399,12 +399,6 @@ button {
     justify-content: center;
     border-radius: 4px;
 }
-
-.shop__buy__btn{}
-
-.shop__like__btn {}
-
-.shop__search__btn {}
 
 .shop__card__flower__name {
     display: block;
@@ -532,4 +526,100 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* ============ BLOGS SECTION STARTED ================ */
+
+.blogs {
+    padding-top: 73px;
+    padding-bottom: 50px;
+}
+
+.blogs__container {
+    max-width: 1202px;
+}
+
+.blogs__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #3D3D3D;
+}
+
+.blogs__text {
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.blogs__card__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 44px;
+}
+
+.blogs__card {
+    max-width: 268px;
+}
+
+.blogs__card__img {
+    max-width: 268px;
+    height: 195px;
+    width: 100%;
+    display: flex;
+}
+
+.blogs__card__info {
+    padding: 9px 11px 12px 15px;
+    background: #FBFBFB;
+}
+
+.blogs__card__date {
+    font-family: Cera Pro, sans-serif;
+    color: #46A358;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 16px;
+}
+
+.blogs__card__title {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    max-width: 210px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.blogs__card__text {
+    color: #727272;
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 9px;
+}
+
+.blogs__card__link {
+    color: #3d3d3d;
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    justify-content: start;
+    gap: 3px;
+    transition: all 0.3s;
+}
+
+.blogs__card__link:hover{
+    gap: 7px;
 }
