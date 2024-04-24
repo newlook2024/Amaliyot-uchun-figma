@@ -9,7 +9,7 @@ body {
     background: #fff;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -50,13 +50,13 @@ button {
 }
 
 .header__container {
-    max-width: 1200px;
+    max-width: 1232px;
     padding-bottom: 17px;
 }
 
 .header-line {
     display: flex;
-    max-width: 1170px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -123,7 +123,7 @@ button {
     color: #fff;
 }
 
-.header__login__btn:hover{
+.header__login__btn:hover {
     opacity: 0.8;
 }
 
@@ -141,7 +141,7 @@ button {
 }
 
 .home-hero__container {
-    max-width: 1170px;
+    max-width: 1200px;
     gap: 93px;
     padding-left: 48px;
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
@@ -207,7 +207,7 @@ button {
     transition: all 0.3s;
 }
 
-.home-hero__btn:hover{
+.home-hero__btn:hover {
     opacity: 0.8;
 }
 
@@ -232,7 +232,7 @@ button {
 }
 
 .home-shop__container {
-    max-width: 1200px;
+    max-width: 1232px;
     gap: 50px;
 }
 
@@ -337,7 +337,7 @@ button {
     bottom: 0;
 }
 
-.home-shop__filter__btn:hover{
+.home-shop__filter__btn:hover {
     opacity: 0.8;
 }
 
@@ -475,7 +475,7 @@ button {
 }
 
 .suggestions__container {
-    max-width: 1200px;
+    max-width: 1234px;
     gap: 30px;
 }
 
@@ -537,7 +537,7 @@ button {
     transition: all 0.3s;
 }
 
-.suggestions__btn:hover{
+.suggestions__btn:hover {
     opacity: 0.8;
 }
 
@@ -567,7 +567,7 @@ button {
 }
 
 .blogs__container {
-    max-width: 1202px;
+    max-width: 1234px;
 }
 
 .blogs__title {
@@ -651,7 +651,156 @@ button {
     transition: all 0.3s;
 }
 
-.blogs__card__link:hover{
+.blogs__card__link:hover {
     gap: 7px;
     color: #46A358;
+}
+
+/* ======= JOIN SECTION STYLES ========== */
+
+.join {
+    padding-top: 50px;
+    padding-bottom: 11.5px;
+}
+
+.join__container {
+    max-width: 1232px;
+}
+
+.join__card__box {
+    display: flex;
+    padding: 25px 25px 24px 23px;
+    justify-content: space-between;
+    background: #FBFBFB;
+}
+
+.join__card {
+    max-width: 238px;
+    padding-left: 27px;
+    border-left: 1px solid #46A3581A;
+    width: 100%;
+    padding-right: 26px;
+}
+
+.join__card1 {
+    max-width: 354px !important;
+    width: 100% ! important;
+}
+
+.join__card:first-child {
+    border-left: none;
+    max-width: 204px;
+    padding-left: 0;
+}
+
+.join__card__img {
+    width: 74px;
+    margin-bottom: 17px;
+}
+
+.join__card__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+
+.m18 {
+    margin-bottom: 18px;
+}
+
+.join__card__text {
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #727272;
+}
+
+.join__form {
+    width: 100%;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+.join__form>input {
+    padding: 12px 11px;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.join__form>input:focus {
+    outline: none;
+    color: #ACACAC;
+}
+
+.join__submit__btn {
+    width: 85px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 6px 6px 0;
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 16px;
+}
+
+.join__card__text {
+    font-family: Cera Pro, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* ====== LOCATION SECTION STARTED ======== */
+
+.location {
+    padding-top: 11.5px;
+    padding-bottom: 16px;
+}
+
+.location__container {
+    max-width: 1232px;
+    background: #46A3581A;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.footer__logo {
+    width: 150px;
+    height: 34.3px;
+    display: flex;
+}
+
+.location__card {
+    max-width: 205px;
+    gap: 9px;
+}
+
+.location__icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.location__text {
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3D3D3D;
+    line-height: 22px;
+}
+
+.location__card__box{
+    justify-content: start;
+    gap: 90px;
 }
