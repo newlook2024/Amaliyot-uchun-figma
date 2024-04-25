@@ -142,7 +142,7 @@ button {
 
 .home-hero__container {
     max-width: 1200px;
-    gap: 93px;
+    gap: 83px;
     padding-left: 48px;
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
 }
@@ -768,11 +768,8 @@ button {
 
 /* ====== LOCATION SECTION STARTED ======== */
 
-.location {
-}
-
 .location__container {
-    max-width: 1232px;
+    max-width: 1200px;
     background: #46A3581A;
     padding-top: 25px;
     padding-bottom: 20px;
@@ -811,12 +808,12 @@ button {
 /* ======= FOOTER STYLES =======*/
 
 .footer {
-    background: #FBFBFB;
     padding-bottom: 13px;
 }
 
 .footer__container {
-    max-width: 1232px;
+    background: #FBFBFB;
+    max-width: 1200px;
     padding-top: 32px;
     justify-content: start;
     gap: 164px;
@@ -841,6 +838,7 @@ button {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+    transition: all 0.3s;
 }
 
 .footer__info__box {
@@ -870,7 +868,7 @@ button {
     color: #46A358;
 }
 
-.footer__card:hover{
+.footer__card:hover {
     color: white;
     background: #46A358;
     border: 1px solid #46A358;
@@ -894,3 +892,457 @@ button {
     margin-right: auto;
     display: flex;
 }
+
+/* ============================================================================================================== */
+/* ================================== SHOP PAGE STYLES START ==================================================== */
+/* ============================================================================================================== */
+
+.shop-hero {
+    padding-top: 24px;
+    padding-bottom: 46px;
+}
+
+.shop-hero__container {
+    max-width: 1232px;
+}
+
+.shop-hero__link {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.shop-hero__link__box {
+    color: #3d3d3d;
+    margin-bottom: 43px;
+    justify-content: start;
+    gap: 5px;
+    font-family: Cera Pro, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    max-width: 500px;
+}
+
+.shop-hero__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 52px;
+}
+
+.shop-hero__box__imgs {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    justify-content: start;
+}
+
+.shop-hero__box__imgs_Y {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.shop-hero__img {
+    width: 100px;
+    height: 100px;
+    background: #FBFBFB;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hero__main__png {
+    max-width: 444px;
+    width: 100%;
+    display: flex;
+    height: 444px;
+    padding: 25px 23px 15px 17px;
+    position: relative;
+    object-fit: cover;
+    background: #FBFBFB;
+}
+
+.hero__img__zoom {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    top: 13px;
+    right: 13px;
+}
+
+.act__png {
+    border: 1px solid #46A358;
+}
+
+.shop-hero__main__img {
+    width: 100%;
+}
+
+.shop-hero__title {
+    font-family: Cera Pro, sans-serif;
+    margin-bottom: 21px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.shop-hero__pice__box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    border-bottom: 0.3px solid #46A35880;
+    margin-bottom: 15px;
+}
+
+.shop-hero__rate__box {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    padding: 1.5px;
+}
+
+.shop-hero__customer {
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.hero__description {
+    font-family: Cera Pro, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-bottom: 10px;
+}
+
+.shop-hero__text {
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.shop-hero__size__box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 23px;
+}
+
+.shop-hero__size_A {
+    width: 28px;
+    height: 28px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #46A358;
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    border: 1px solid #46A358;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.shop-hero__size {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #727272;
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    border: 1px solid #EAEAEA;
+    border-radius: 50%;
+}
+
+.shop-hero__counter {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 23px;
+}
+
+.minus {
+    width: 33px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: Cera Pro, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.counter__count {
+    font-family: Cera Pro, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #3d3d3d;
+}
+
+.plus {
+    width: 33px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: Cera Pro, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.shop-hero__btns__box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    max-width: 320px;
+    width: 100%;
+}
+
+.shop-hero__btn {
+    font-family: Cera Pro, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    max-width: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.shop-hero__btn1 {
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    font-family: Cera Pro, sans-serif;
+    color: #46A358;
+    border-radius: 6px;
+    border: 1px solid #46A358;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.shop-hero__btn2 {
+    max-width: 40px;
+    height: 40px;
+    color: #46A358;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #46A358;
+    background: transparent;
+}
+
+.shop-hero__btns {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 26px;
+}
+
+.shop-hero__btn,
+.shop-hero__btn1,
+.shop-hero__btn2 {
+    transition: all 0.3s;
+}
+
+.shop-hero__btn:hover,
+.shop-hero__btn1:hover,
+.shop-hero__btn2:hover {
+    opacity: 0.8;
+}
+
+.shop-hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10.5px;
+    margin-bottom: 18px;
+}
+
+.flower__info {
+    font-family: Cera Pro, sans-serif;
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.flower__id {
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.shop-hero__share__box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.shop-hero__share {
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.share__icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.share__link {
+    color: #3d3d3d;
+    transition: all 0.3s;
+    display: flex;
+}
+
+.share__link:hover {
+    color: #46A358;
+}
+
+.shop-info {
+    padding-top: 42px;
+    padding-bottom: 64px;
+}
+
+.shop-info__container {
+    max-width: 1232px;
+}
+
+.shop-info__tab__box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 0.3px solid #46A35880;
+    margin-bottom: 18px;
+}
+
+.shop-info__text {
+    color: #727272;
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.shop-info__title {
+    font-family: Cera Pro, sans-serif;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.shop-products {
+    padding-top: 64px;
+    padding-bottom: 0px;
+}
+
+.shop-products__container {
+    max-width: 1232px;
+}
+
+.shop-products__title {
+    font-family: Cera Pro, sans-serif;
+    color: #46A358;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.shop-products__line {
+    height: 0;
+    border: none;
+    border-bottom: 0.3px solid #46A35880;
+    margin-bottom: 44px;
+}
+
+.shop-product__card__img {
+    padding: 5px 11px 7px 18px;
+    max-width: 219px;
+    height: 255px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
+    background-color: #FBFBFB;
+    margin-bottom: 12px;
+}
+
+.shop-products__card__box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 26px; 
+}
+
+.counter__count{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__link:hover{
+    color: #46A358;
+}
+
+/* =================================================================================================================================================== */
+/* ======================================================== SHOPPING CARD PAGE STYLES ================================================================ */
+/* =================================================================================================================================================== */
+
