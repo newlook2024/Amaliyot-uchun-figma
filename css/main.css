@@ -660,7 +660,6 @@ button {
 
 .join {
     padding-top: 50px;
-    padding-bottom: 11.5px;
 }
 
 .join__container {
@@ -668,6 +667,7 @@ button {
 }
 
 .join__card__box {
+    padding-bottom: 23px;
     display: flex;
     padding: 25px 25px 24px 23px;
     justify-content: space-between;
@@ -755,7 +755,7 @@ button {
     transition: 0.3s;
 }
 
-.join__submit__btn:hover{
+.join__submit__btn:hover {
     opacity: 0.8;
 }
 
@@ -769,8 +769,6 @@ button {
 /* ====== LOCATION SECTION STARTED ======== */
 
 .location {
-    padding-top: 11.5px;
-    padding-bottom: 16px;
 }
 
 .location__container {
@@ -805,7 +803,94 @@ button {
     line-height: 22px;
 }
 
-.location__card__box{
+.location__card__box {
     justify-content: start;
     gap: 90px;
+}
+
+/* ======= FOOTER STYLES =======*/
+
+.footer {
+    background: #FBFBFB;
+    padding-bottom: 13px;
+}
+
+.footer__container {
+    max-width: 1232px;
+    padding-top: 32px;
+    justify-content: start;
+    gap: 164px;
+    padding-left: 21px;
+    align-items: start;
+    padding-bottom: 27px;
+}
+
+.footer__list__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-bottom: 8px;
+}
+
+.footer__link {
+    color: #3d3d3d;
+    font-family: Cera Pro, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer__info__box {
+    padding-left: 20px;
+}
+
+.footer__info__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__info__cards {
+    gap: 10px;
+    margin-bottom: 33px;
+}
+
+.footer__card {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #46A35833;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.3s;
+    color: #46A358;
+}
+
+.footer__card:hover{
+    color: white;
+    background: #46A358;
+    border: 1px solid #46A358;
+}
+
+.footer__brends__box {
+    max-width: 224px;
+    height: 26px;
+}
+
+.copyright {
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 287px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
