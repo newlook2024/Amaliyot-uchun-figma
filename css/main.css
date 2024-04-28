@@ -1637,7 +1637,7 @@ button {
     margin-bottom: 14px;
 }
 
-.card-hero__continue{
+.card-hero__continue {
     color: #46A358;
     width: 135px;
     margin-left: auto;
@@ -1647,4 +1647,63 @@ button {
     line-height: 16px;
     display: flex;
     font-family: Cera Pro, sans-serif;
+}
+
+/* =========================================================================================================================== */
+/* =============================================== CHECKOUT PAGE STYLES ======================================= */
+/* =========================================================================================================================== */
+
+.checkOut {
+    padding-top: 24px;
+    padding-bottom: 160px;
+}
+
+.checkout__container {
+    max-width: 1232px;
+}
+
+.address-form {
+    max-width: 722px;
+    width: 100%;
+}
+
+.address-form__title {
+    color: #3d3d3d;
+    font-family: Cera Pro, sans-serif;
+    margin-bottom: 21px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.address-form__grid__box {
+    max-width: 722px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 22px;
+    row-gap: 30px;
+}
+
+.form__input__box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+}
+
+.form__label {
+    color: #3d3d3d;
+    font-family: Cera Pro, sans-serif;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.form__input {
+    border: 1px solid #EAEAEA;
+    max-width: 350px;
+    padding: 11.5px 15px;
 }

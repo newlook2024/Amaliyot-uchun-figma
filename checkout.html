@@ -38,7 +38,335 @@
         </div>
         <hr class="header-line">
     </header>
-   
+    <section class="checkOut">
+        <div class="checkout__container container">
+            <div class="flex shop-hero__link__box">
+                <a class="shop-hero__link" href="./index.html">Home</a> <span>/ Shop</span> <span>/ Shopping Cart</span>
+            </div>
+            <form action="#">
+                <div class="address-form">
+                    <h2 class="address-form__title">Billing address</h2>
+                    <div class="address-form__grid__box">
+                        <div class="form__input__box">
+                            <label for="name" class="form__label">First Name <span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <input id="name" type="text" class="form__input">
+                        </div>
+                        <div class="form__input__box">
+                            <label for="last" class="form__label">Last Name <span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <input id="last" type="text" class="form__input">
+                        </div>
+                        <div class="form__input__box">
+                            <label for="country" class="form__label">Country / Region <span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <select name="country" id="country" class="form__input">
+                                <option value="AF">Afgʻoniston (AF)</option>
+                                <option value="AL">Albaniya (AL)</option>
+                                <option value="DZ">Jazoir (DZ)</option>
+                                <option value="AS">Amerika Samoasi (AS)</option>
+                                <option value="AD">Andorra (AD)</option>
+                                <option value="AO">Angola (AO)</option>
+                                <option value="AI">Anguilla (AI)</option>
+                                <option value="AQ">Antarktida (AQ)</option>
+                                <option value="AG">Antigua va Barbuda (AG)</option>
+                                <option value="AR">Argentina (AR)</option>
+                                <option value="AM">Armaniston (AM)</option>
+                                <option value="AW">Aruba (AW)</option>
+                                <option value="AU">Avstraliya (AU)</option>
+                                <option value="AT">Avstriya (AT)</option>
+                                <option value="AZ">Ozarbayjon (AZ)</option>
+                                <option value="BS">Bagama orollari (BS)</option>
+                                <option value="BH">Bahrayn (BH)</option>
+                                <option value="BD">Bangladesh (BD)</option>
+                                <option value="BB">Barbados (BB)</option>
+                                <option value="BY">Belarus (BY)</option>
+                                <option value="BE">Belgiya (BE)</option>
+                                <option value="BZ">Beliz (BZ)</option>
+                                <option value="BJ">Benin (BJ)</option>
+                                <option value="BM">Bermuda (BM)</option>
+                                <option value="BT">Butan (BT)</option>
+                                <option value="BO">Boliviya (BO)</option>
+                                <option value="BA">Bosniya va Gertsegovina (BA)</option>
+                                <option value="BW">Botsvana (BW)</option>
+                                <option value="BR">Braziliya (BR)</option>
+                                <option value="IO">Britaniya Hind okeanidagi territoriyasi (IO)</option>
+                                <option value="VG">Britaniya Virgin orollari (VG)</option>
+                                <option value="BN">Bruney (BN)</option>
+                                <option value="BG">Bolgariya (BG)</option>
+                                <option value="BF">Burkina-Faso (BF)</option>
+                                <option value="BI">Burundi (BI)</option>
+                                <option value="KH">Kambodja (KH)</option>
+                                <option value="CM">Kamerun (CM)</option>
+                                <option value="CA">Kanada (CA)</option>
+                                <option value="CV">Kabo-Verde (CV)</option>
+                                <option value="KY">Kayman orollari (KY)</option>
+                                <option value="CF">Markaziy Afrika Respublikasi (CF)</option>
+                                <option value="TD">Chad (TD)</option>
+                                <option value="CL">Chili (CL)</option>
+                                <option value="CN">Xitoy (CN)</option>
+                                <option value="CX">Rojdestvo oroli (CX)</option>
+                                <option value="CC">Kokos (Keeling) orollari (CC)</option>
+                                <option value="CO">Kolumbiya (CO)</option>
+                                <option value="KM">Komor orollari (KM)</option>
+                                <option value="CK">Kuk orollari (CK)</option>
+                                <option value="CR">Kosta-Rika (CR)</option>
+                                <option value="HR">Xorvatiya (HR)</option>
+                                <option value="CU">Kuba (CU)</option>
+                                <option value="CW">Kuracao (CW)</option>
+                                <option value="CY">Qibris (CY)</option>
+                                <option value="CZ">Chexiya (CZ)</option>
+                                <option value="CD">Kongo-Kinshasa (CD)</option>
+                                <option value="DK">Daniya (DK)</option>
+                                <option value="DJ">Jibuti (DJ)</option>
+                                <option value="DM">Dominika (DM)</option>
+                                <option value="DO">Dominikana Respublikasi (DO)</option>
+                                <option value="TL">Sharqiy Timor (TL)</option>
+                                <option value="EC">Ekvador (EC)</option>
+                                <option value="EG">Misr (EG)</option>
+                                <option value="SV">Salvador (SV)</option>
+                                <option value="GQ">Ekvatorial Gvineya (GQ)</option>
+                                <option value="ER">Eritreya (ER)</option>
+                                <option value="EE">Estoniya (EE)</option>
+                                <option value="ET">Efiopiya (ET)</option>
+                                <option value="FK">Folklend orollari (FK)</option>
+                                <option value="FO">Farer orollari (FO)</option>
+                                <option value="FJ">Fiji (FJ)</option>
+                                <option value="FI">Finlandiya (FI)</option>
+                                <option value="FR">Fransiya (FR)</option>
+                                <option value="GF">Fransuz Gvianasi (GF)</option>
+                                <option value="PF">Fransuz Polineziyasi (PF)</option>
+                                <option value="TF">Fransuz Janubiy va Antarktika territoriyalari (TF)</option>
+                                <option value="GA">Gabon (GA)</option>
+                                <option value="GM">Gambiya (GM)</option>
+                                <option value="GE">Gruziya (GE)</option>
+                                <option value="DE">Germaniya (DE)</option>
+                                <option value="GH">Gana (GH)</option>
+                                <option value="GI">Gibraltar (GI)</option>
+                                <option value="GR">Gretsiya (GR)</option>
+                                <option value="GL">Grenlandiya (GL)</option>
+                                <option value="GD">Grenada (GD)</option>
+                                <option value="GP">Gvadelupa (GP)</option>
+                                <option value="GU">Guam (GU)</option>
+                                <option value="GT">Gvatemala (GT)</option>
+                                <option value="GG">Gernsi (GG)</option>
+                                <option value="GN">Gvineya (GN)</option>
+                                <option value="GW">Gvineya-Bisau (GW)</option>
+                                <option value="GY">Gayana (GY)</option>
+                                <option value="HT">Gaiti (HT)</option>
+                                <option value="HM">Herd va Makdonald orollari (HM)</option>
+                                <option value="VA">Vatikan (VA)</option>
+                                <option value="HN">Gonduras (HN)</option>
+                                <option value="HK">Gonkong (HK)</option>
+                                <option value="HU">Vengriya (HU)</option>
+                                <option value="IS">Islandiya (IS)</option>
+                                <option value="IN">Hindiston (IN)</option>
+                                <option value="ID">Indoneziya (ID)</option>
+                                <option value="IR">Eron (IR)</option>
+                                <option value="IQ">Iroq (IQ)</option>
+                                <option value="IE">Irlandiya (IE)</option>
+                                <option value="IM">Men oroli (IM)</option>
+                                <option value="IL">Isroil (IL)</option>
+                                <option value="IT">Italiya (IT)</option>
+                                <option value="CI">Kot-d'Ivoir (CI)</option>
+                                <option value="JM">Yamayka (JM)</option>
+                                <option value="JP">Yaponiya (JP)</option>
+                                <option value="JE">Jersi (JE)</option>
+                                <option value="JO">Yordaniya (JO)</option>
+                                <option value="KZ">Qozogʻiston (KZ)</option>
+                                <option value="KE">Keniya (KE)</option>
+                                <option value="KI">Kiribati (KI)</option>
+                                <option value="KW">Quvayt (KW)</option>
+                                <option value="KG">Qirgʻiziston (KG)</option>
+                                <option value="LA">Laos (LA)</option>
+                                <option value="LV">Latviya (LV)</option>
+                                <option value="LB">Livan (LB)</option>
+                                <option value="LS">Lesoto (LS)</option>
+                                <option value="LR">Liberiya (LR)</option>
+                                <option value="LY">Liviya (LY)</option>
+                                <option value="LI">Lixtenshteyn (LI)</option>
+                                <option value="LT">Litva (LT)</option>
+                                <option value="LU">Lyuksemburg (LU)</option>
+                                <option value="MO">Makao (MO)</option>
+                                <option value="MK">Makedoniya (MK)</option>
+                                <option value="MG">Madagaskar (MG)</option>
+                                <option value="MW">Malavi (MW)</option>
+                                <option value="MY">Malayziya (MY)</option>
+                                <option value="MV">Maldiv orollari (MV)</option>
+                                <option value="ML">Mal (ML)</option>
+                                <option value="MT">Malta (MT)</option>
+                                <option value="MH">Marshall orollari (MH)</option>
+                                <option value="MQ">Martinika (MQ)</option>
+                                <option value="MR">Mavritaniya (MR)</option>
+                                <option value="MU">Mavrikiy (MU)</option>
+                                <option value="YT">Mayotta (YT)</option>
+                                <option value="MX">Meksika (MX)</option>
+                                <option value="FM">Mikroneziya (FM)</option>
+                                <option value="MD">Moldova (MD)</option>
+                                <option value="MC">Monako (MC)</option>
+                                <option value="MN">Monqoliya (MN)</option>
+                                <option value="ME">Chernogoriya (ME)</option>
+                                <option value="MS">Montserat (MS)</option>
+                                <option value="MA">Marokash (MA)</option>
+                                <option value="MZ">Mozambik (MZ)</option>
+                                <option value="MM">Myanma (MM)</option>
+                                <option value="NA">Namibiya (NA)</option>
+                                <option value="NR">Nauru (NR)</option>
+                                <option value="NP">Nepal (NP)</option>
+                                <option value="NL">Niderlandiya (NL)</option>
+                                <option value="NC">Yangi Kaledoniya (NC)</option>
+                                <option value="NZ">Yangi Zelandiya (NZ)</option>
+                                <option value="NI">Nikaragua (NI)</option>
+                                <option value="NE">Niger (NE)</option>
+                                <option value="NG">Nigeriya (NG)</option>
+                                <option value="NU">Niue (NU)</option>
+                                <option value="NF">Norfolk oroli (NF)</option>
+                                <option value="KP">Shimoliy Koreya (KP)</option>
+                                <option value="MP">Shimoliy Mariana orollari (MP)</option>
+                                <option value="NO">Norvegiya (NO)</option>
+                                <option value="OM">Ummon (OM)</option>
+                                <option value="PK">Pokiston (PK)</option>
+                                <option value="PW">Palau (PW)</option>
+                                <option value="PS">Falastin (PS)</option>
+                                <option value="PA">Panama (PA)</option>
+                                <option value="PG">Papua - Yangi Gvineya (PG)</option>
+                                <option value="PY">Paragvay (PY)</option>
+                                <option value="PE">Peru (PE)</option>
+                                <option value="PH">Filippin (PH)</option>
+                                <option value="PN">Pitkern orollari (PN)</option>
+                                <option value="PL">Polsha (PL)</option>
+                                <option value="PT">Portugaliya (PT)</option>
+                                <option value="PR">Puerto-Riko (PR)</option>
+                                <option value="QA">Qatar (QA)</option>
+                                <option value="RE">Reyunon (RE)</option>
+                                <option value="RO">Ruminiya (RO)</option>
+                                <option value="RU">Rossiya (RU)</option>
+                                <option value="RW">Ruanda (RW)</option>
+                                <option value="BL">Sen-Bartelemi (BL)</option>
+                                <option value="SH">Muqaddas Yelena, Ascension va Tristan da Kunha (SH)</option>
+                                <option value="KN">Sent-Kits va Nevis (KN)</option>
+                                <option value="LC">Sent-Lusiya (LC)</option>
+                                <option value="MF">Sent-Martin (MF)</option>
+                                <option value="PM">Sent-Pyer va Mikelon (PM)</option>
+                                <option value="VC">Sent-Vinsent va Grenadin (VC)</option>
+                                <option value="WS">Samoa (WS)</option>
+                                <option value="SM">San-Marino (SM)</option>
+                                <option value="ST">San-Tome va Prinsipi (ST)</option>
+                                <option value="SA">Saudiya Arabistoni (SA)</option>
+                                <option value="SN">Senegal (SN)</option>
+                                <option value="RS">Serbiya (RS)</option>
+                                <option value="SC">Seyshel orollari (SC)</option>
+                                <option value="SL">Syerra-Leone (SL)</option>
+                                <option value="SG">Singapur (SG)</option>
+                                <option value="SX">Sint-Marten (SX)</option>
+                                <option value="SK">Slovakiya (SK)</option>
+                                <option value="SI">Sloveniya (SI)</option>
+                                <option value="SB">Solomon orollari (SB)</option>
+                                <option value="SO">Somali (SO)</option>
+                                <option value="ZA">Janubiy Afrika (ZA)</option>
+                                <option value="GS">Janubiy Georgiya va Janubiy Sandvich orollari (GS)</option>
+                                <option value="KR">Janubiy Koreya (KR)</option>
+                                <option value="SS">Janubiy Sudan (SS)</option>
+                                <option value="ES">Ispaniya (ES)</option>
+                                <option value="LK">Shri-Lanka (LK)</option>
+                                <option value="SD">Sudan (SD)</option>
+                                <option value="SR">Surinam (SR)</option>
+                                <option value="SJ">Svalbard va Jan-Mayen (SJ)</option>
+                                <option value="SZ">Svazilend (SZ)</option>
+                                <option value="SE">Shvetsiya (SE)</option>
+                                <option value="CH">Shveytsariya (CH)</option>
+                                <option value="SY">Suriya (SY)</option>
+                                <option value="TW">Tayvan (TW)</option>
+                                <option value="TJ">Tojikiston (TJ)</option>
+                                <option value="TZ">Tanzaniya (TZ)</option>
+                                <option value="TH">Tailand (TH)</option>
+                                <option value="TG">Togo (TG)</option>
+                                <option value="TK">Tokelau (TK)</option>
+                                <option value="TO">Tonga (TO)</option>
+                                <option value="TT">Trinidad va Tobago (TT)</option>
+                                <option value="TN">Tunis (TN)</option>
+                                <option value="TR">Turkiya (TR)</option>
+                                <option value="TM">Turkmaniston (TM)</option>
+                                <option value="TC">Turks va Kaykos orollari (TC)</option>
+                                <option value="TV">Tuvalu (TV)</option>
+                                <option value="UG">Uganda (UG)</option>
+                                <option value="UA">Ukraina (UA)</option>
+                                <option value="AE">Birlashgan Arab Amirliklari (AE)</option>
+                                <option value="GB">Buyuk Britaniya (GB)</option>
+                                <option value="US">Amerika Qo'shma Shtatlari (US)</option>
+                                <option value="UM">Qo'shma Shtatlarning Afritsiyadagi orollari (UM)</option>
+                                <option value="UY">Urugvay (UY)</option>
+                                <option value="UZ">O'zbekiston (UZ)</option>
+                                <option value="VU">Vanuatu (VU)</option>
+                                <option value="VE">Venesuela (VE)</option>
+                                <option value="VN">Vyetnam (VN)</option>
+                                <option value="WF">Valis va Futuna (WF)</option>
+                                <option value="EH">Gʻarbiy Sahroiya (EH)</option>
+                                <option value="YE">Yaman (YE)</option>
+                                <option value="ZM">Zambiya (ZM)</option>
+                                <option value="ZW">Zimbabve (ZW)</option>
+                            </select>
+                        </div>
+                        <div class="form__input__box">
+                            <label for="town" class="form__label">Town / City <span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <input id="town" type="text" class="form__input">
+                        </div>
+                        <div class="form__input__box">
+                            <label for="street" class="form__label">Street Address<span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <input id="street" type="text" class="form__input"
+                                placeholder="House number and street name">
+                        </div>
+                        <div class="form__input__box">
+                            <input type="text" class="form__input"
+                                placeholder="Appartment, suite, unit, etc. (optional)">
+                        </div>
+                        <div class="form__input__box">
+                            <label for="state" class="form__label">State<span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <select class="form__input" id="state">
+                                <option value="London">London</option>
+                                <option value="Paris">Paris</option>
+                                <option value="New York">New York</option>
+                                <option value="Tokyo">Tokyo</option>
+                                <option value="Istanbul">Istanbul</option>
+                                <option value="Dubai">Dubai</option>
+                                <option value="Los Angeles">Los Angeles</option>
+                                <option value="Beijing">Beijing</option>
+                                <option value="Moscow">Moscow</option>
+                                <option value="Cairo">Cairo</option>
+                                <option value="Sydney">Sydney</option>
+                                <option value="Rome">Rome</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <option value="Bangkok">Bangkok</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Berlin">Berlin</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Buenos Aires">Buenos Aires</option>
+                                <option value="Toronto">Toronto</option>
+                                <option value="Cape Town">Cape Town</option>
+                            </select>
+                            
+                        </div>
+                        <div class="form__input__box">
+                            <label for="state" class="form__label">Zip <span
+                                    style="color: #F03800; font-size: 22px; line-height: 15px; font-family: Cera Pro, sans-serif;">*</span>
+                            </label>
+                            <input id="state" type="text" class="form__input">
+                        </div>
+                    </div>
+                </div>
+                <div class="order-form"></div>
+            </form>
+        </div>
+    </section>
     <section class="join">
         <div class="join__container container">
             <div class="join__card__box">
