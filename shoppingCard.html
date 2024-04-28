@@ -19,7 +19,7 @@
             </a>
             <ul class="nav__list flex">
                 <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link__active">Shop</a></li>
+                <li class="nav__item"><a href="./shop.html" class="nav__link__active">Shop</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Plant Care</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Blogs</a></li>
             </ul>
@@ -39,9 +39,156 @@
         <hr class="header-line">
     </header>
     <section class="card-hero">
-        <div class="card-hero__container">
+        <div class="card-hero__container container">
             <div class="flex shop-hero__link__box">
                 <a class="shop-hero__link" href="./index.html">Home</a> <span>/ Shop</span> <span>/ Shopping Cart</span>
+            </div>
+            <div class="flex" style="align-items: start; justify-content: space-between; gap: 20px;">
+                <div class="card-hero__deleteCards">
+                    <div class="deleteCards__title__box flex">
+                        <h3 class="deleteCards__title">Products</h3>
+                        <div class="deleteCards__title__box1">
+                            <h3 class="deleteCards__title">Price</h3>
+                            <h3 class="deleteCards__title">Quantity</h3>
+                            <h3 class="deleteCards__title">Total</h3>
+                        </div>
+                    </div>
+                    <hr class="deleteCards__line">
+                    <div class="deleteCards__card__box">
+                        <div class="deleteCards__card">
+                            <div class="deleteCards__card_info">
+                                <img class="deleteCards__card__img" src="./images/home/shop/flower.png"
+                                    alt="flower image">
+                                <div>
+                                    <h6 class="deleteCards__flower__name">Barberton Daisy</h6>
+                                    <span class="flower__info">SKU:</span> <span class="flower__id">1995751877966</span>
+                                </div>
+                            </div>
+                            <span class="deleteCards__card__price">$<span
+                                    id="deleteCards__card__price">119.00</span></span>
+                            <div class="deleteCards__card__counter">
+                                <button class="minus1 main__btn">-</button>
+                                <span class="deleteCards__card__count">1</span>
+                                <button class="plus1 main__btn">+</button>
+                            </div>
+                            <div class="deleteCards__card__total__box">
+                                <span class="price total_price">$<span id="total_price">119.00</span></span>
+                                <button class="deleteCards__card__delete__btn">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.8892 9.55408C18.8892 17.5731 20.0435 21.1979 12.2797 21.1979C4.5149 21.1979 5.693 17.5731 5.693 9.55408"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M20.3651 6.47979H4.2146" stroke="#727272" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M15.7148 6.47979C15.7148 6.47979 16.2434 2.71408 12.2891 2.71408C8.33578 2.71408 8.86435 6.47979 8.86435 6.47979"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="deleteCards__card">
+                            <div class="deleteCards__card_info">
+                                <img class="deleteCards__card__img" src="./images/home/shop/flower4.png"
+                                    alt="flower image">
+                                <div>
+                                    <h6 class="deleteCards__flower__name">Blushing Bromeliad</h6>
+                                    <span class="flower__info">SKU:</span> <span class="flower__id">1995751877966</span>
+                                </div>
+                            </div>
+                            <span class="deleteCards__card__price">$<span
+                                    id="deleteCards__card__price">139.00</span></span>
+                            <div class="deleteCards__card__counter">
+                                <button class="minus1 main__btn">-</button>
+                                <span class="deleteCards__card__count">1</span>
+                                <button class="plus1 main__btn">+</button>
+                            </div>
+                            <div class="deleteCards__card__total__box">
+                                <span class="price total_price">$<span id="total_price">139.00</span></span>
+                                <button class="deleteCards__card__delete__btn">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.8892 9.55408C18.8892 17.5731 20.0435 21.1979 12.2797 21.1979C4.5149 21.1979 5.693 17.5731 5.693 9.55408"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M20.3651 6.47979H4.2146" stroke="#727272" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M15.7148 6.47979C15.7148 6.47979 16.2434 2.71408 12.2891 2.71408C8.33578 2.71408 8.86435 6.47979 8.86435 6.47979"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="deleteCards__card">
+                            <div class="deleteCards__card_info">
+                                <img class="deleteCards__card__img" src="./images/home/shop/flower5.png"
+                                    alt="flower image">
+                                <div>
+                                    <h6 class="deleteCards__flower__name">Aluminum Plant</h6>
+                                    <span class="flower__info">SKU:</span> <span class="flower__id">1995751877966</span>
+                                </div>
+                            </div>
+                            <span class="deleteCards__card__price">$<span
+                                    id="deleteCards__card__price">179.00</span></span>
+                            <div class="deleteCards__card__counter">
+                                <button class="minus1 main__btn">-</button>
+                                <span class="deleteCards__card__count">1</span>
+                                <button class="plus1 main__btn">+</button>
+                            </div>
+                            <div class="deleteCards__card__total__box">
+                                <span class="price total_price">$<span id="total_price">179.00</span></span>
+                                <button class="deleteCards__card__delete__btn">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.8892 9.55408C18.8892 17.5731 20.0435 21.1979 12.2797 21.1979C4.5149 21.1979 5.693 17.5731 5.693 9.55408"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M20.3651 6.47979H4.2146" stroke="#727272" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M15.7148 6.47979C15.7148 6.47979 16.2434 2.71408 12.2891 2.71408C8.33578 2.71408 8.86435 6.47979 8.86435 6.47979"
+                                            stroke="#727272" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-hero__totals">
+                    <h3 class="card-hero__totals__title">
+                        Cart Totals
+                    </h3>
+                    <hr class="card-hero__totals__line">
+                    <span class="card-hero__cupon__title">
+                        Coupon Apply
+                    </span>
+                    <div class="card-hero__cupon__input__box flex">
+                        <input type="text" placeholder="Enter cupon code here...">
+                        <button class="apply__btn main__btn">Apply</button>
+                    </div>
+                    <ul class="card-hero__list">
+                        <li class="flex"><span class="card-hero__list__title">Subtotal</span> <b>$2,683.00</b></li>
+                        <li class="flex"><span class="card-hero__list__title">Cupon Discount</span> <span
+                                class="card-hero__list__title">(-) 00.00</span></li>
+                        <li class="flex"><span class="card-hero__list__title">Shiping</span> <b>$16.00</b></li>
+                    </ul>
+                    <a href="#" class="card-hero__view">View shipping charge</a>
+                    <h6 class="flex card-hero_total_price">
+                        Total <span class="price">$<span id="total-price">437.00</span></span>
+                    </h6>
+                    <a href="./checkout.html" class="main__btn proceed__btn">
+                        Proceed to Checkout
+                    </a>
+                    <a href="./shop.html" class="card-hero__continue">Continue Shopping</a>
+                </div>
             </div>
         </div>
     </section>

@@ -1325,24 +1325,326 @@ button {
     margin-bottom: 12px;
 }
 
-.shop-products__card__box{
+.shop-products__card__box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 26px; 
+    gap: 26px;
 }
 
-.counter__count{
+.counter__count {
     width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer__link:hover{
+.footer__link:hover {
     color: #46A358;
 }
 
-/* =================================================================================================================================================== */
-/* ======================================================== SHOPPING CARD PAGE STYLES ================================================================ */
-/* =================================================================================================================================================== */
+/* ======================================================================================================================================= */
+/* ======================================================== SHOPPING CARD PAGE STYLES ==================================================== */
+/* ======================================================================================================================================= */
 
+.card-hero {
+    padding-top: 36px;
+    padding-bottom: 87px;
+}
+
+.card-hero__container {
+    max-width: 1232px;
+}
+
+.card-hero__deleteCards {
+    max-width: 782px;
+    width: 100%;
+    min-width: 612px;
+    position: relative;
+}
+
+.deleteCards__title__box {
+    justify-content: start;
+    margin-bottom: 11px;
+    gap: 245px;
+}
+
+.deleteCards__title__box1 {
+    display: flex;
+    gap: 120px;
+    max-width: 500px;
+}
+
+.deleteCards__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #3d3d3d;
+}
+
+.deleteCards__line {
+    border: none;
+    border-bottom: 0.3px solid #46A35880;
+    height: 0;
+    margin-bottom: 11px;
+}
+
+.deleteCards__card {
+    padding: 23px 26px;
+    background: #FBFBFB;
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+    gap: 95px;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.deleteCards__card_info {
+    max-width: 234px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.deleteCards__card__img {
+    max-width: 70px;
+    height: 70px;
+}
+
+.deleteCards__flower__name {
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    margin-bottom: 6px;
+}
+
+.deleteCards__card__price {
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 16px;
+    right: 55%;
+    color: #727272;
+}
+
+.deleteCards__card__counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100px;
+    padding-left: 20px;
+    position: absolute;
+    right: 31%;
+    gap: 10px;
+}
+
+.minus1,
+.plus1 {
+    width: 21px !important;
+    height: 25px;
+    font-family: Cera Pro, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 29px;
+}
+
+.deleteCards__card__count {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cera Pro, sans-serif;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.deleteCards__card__total__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    margin-left: auto;
+}
+
+.total_price {
+    font-size: 16px;
+    position: absolute;
+    right: 80px;
+}
+
+.deleteCards__card__delete__btn {
+    background: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+}
+
+.deleteCards__title__box1>.deleteCards__title:nth-child(1) {
+    position: absolute;
+    left: 40%;
+    top: 1px;
+}
+
+.deleteCards__title__box1>.deleteCards__title:nth-child(2) {
+    position: absolute;
+    left: 59%;
+    top: 1px;
+}
+
+.deleteCards__title__box1>.deleteCards__title:nth-child(3) {
+    position: absolute;
+    left: 83%;
+    top: 1px;
+}
+
+.card-hero__totals {
+    width: 100%;
+    max-width: 332px;
+}
+
+.card-hero__totals__title {
+    color: #3D3D3D;
+    font-family: Cera Pro, sans-serif;
+    margin-bottom: 11px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.card-hero__totals__line {
+    border: none;
+    border-bottom: 0.3px solid #46A35880;
+    margin-bottom: 11px;
+}
+
+.card-hero__cupon__title {
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.card-hero__cupon__input__box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #46A358;
+    justify-content: center;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.apply__btn {
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    font-family: Cera Pro, sans-serif;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 102px;
+    line-height: 16px;
+}
+
+.card-hero__cupon__input__box>input {
+    padding: 13px 0 13px 9px;
+    outline: none;
+    font-family: Cera Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 15px;
+    border: none;
+    height: 40px;
+}
+
+.card-hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-bottom: 8px;
+}
+
+.card-hero__list>li>b {
+    color: #3D3D3D;
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right;
+}
+
+.card-hero__list__title {
+    color: #3D3D3D;
+    font-family: Cera Pro, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.card-hero__view {
+    font-family: Cera Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #46A358;
+    width: 121px;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.card-hero_total_price {
+    color: #3D3D3D;
+    font-family: Cera Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 29px;
+}
+
+.proceed__btn {
+    font-family: Cera Pro, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 14px;
+}
+
+.card-hero__continue{
+    color: #46A358;
+    width: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    font-family: Cera Pro, sans-serif;
+}
